@@ -6,7 +6,7 @@ import { logger } from '../../utils/logger.js';
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 
 export default {
-    data: new SlashCommandBuilder()
+    data: new SlashCommandBuilder(true)
         .setName('verify')
         .setDescription('Verify yourself and gain access to the server'),
 
